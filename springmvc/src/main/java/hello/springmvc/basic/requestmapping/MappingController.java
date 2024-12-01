@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class MappingController {
 
+    // index.html -> 요청 매핑
+
     @RequestMapping("/hello-basic")
     public String helloBasic() {
         log.info("helloBasic");
