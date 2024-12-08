@@ -20,7 +20,8 @@ import java.nio.charset.StandardCharsets;
 @Controller
 public class RequestBodyStringController {
 
-    //index.html -> HTTP 요청 메시지
+    // index.html -> HTTP 요청 메시지
+    // 순서 6번
 
     @PostMapping("/request-body-string-v1")
     public void requestBodyString(HttpServletRequest request, HttpServletResponse response) throws IOException {

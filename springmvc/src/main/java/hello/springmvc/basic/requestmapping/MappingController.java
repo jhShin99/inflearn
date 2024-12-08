@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 public class MappingController {
 
     // index.html -> 요청 매핑
+    // 순서 2번
 
     @RequestMapping("/hello-basic")
     public String helloBasic() {

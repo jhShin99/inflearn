@@ -17,7 +17,8 @@ import java.util.Map;
 @Controller
 public class RequestParamController {
 
-    //index.html -> HTTP 요청 파라미터
+    // index.html -> HTTP 요청 파라미터
+    // 순서 5번
 
     @RequestMapping("/request-param-v1")
     public void requestParamV1(HttpServletRequest request, HttpServletResponse response) throws IOException {

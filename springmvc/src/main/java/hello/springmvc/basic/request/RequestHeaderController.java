@@ -16,7 +16,8 @@ import java.util.Locale;
 @RestController
 public class RequestHeaderController {
 
-    //index.html -> HTTP 요청 기본
+    // index.html -> HTTP 요청 기본
+    // 순서 4번
 
     @RequestMapping("/headers")
     public String headers(HttpServletRequest request,

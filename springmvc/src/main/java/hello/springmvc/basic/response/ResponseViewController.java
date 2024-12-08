@@ -8,6 +8,9 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class ResponseViewController {
 
+    // index.html -> HTTP 응답 - 정적 리소스, 뷰 템플릿
+    // 순서 8번
+
     @RequestMapping("/response-view-v1")
     public ModelAndView responseViewV1() {
         ModelAndView mav = new ModelAndView("response/hello")

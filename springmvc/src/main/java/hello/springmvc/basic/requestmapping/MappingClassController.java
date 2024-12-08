@@ -6,7 +6,8 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/mapping/users")
 public class MappingClassController {
 
-    //index.html -> 요청 매핑 - API 예시
+    // index.html -> 요청 매핑 - API 예시
+    // 순서 3번
 
     @GetMapping
     public String user() {

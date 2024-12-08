@@ -24,7 +24,8 @@ import java.nio.charset.StandardCharsets;
 @Controller
 public class RequestBodyJsonController {
 
-    //index.html -> HTTP 요청 메시지
+    // index.html -> HTTP 요청 메시지
+    // 순서 7번
 
     private ObjectMapper objectMapper = new ObjectMapper();
 

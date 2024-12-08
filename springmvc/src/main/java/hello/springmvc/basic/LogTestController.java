@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LogTestController {
 
-    //index.html -> 로그 출력
+    // index.html -> 로그 출력
+    // 순서 1번
 
     @RequestMapping(value = "/log-test")
     public String logTest() {

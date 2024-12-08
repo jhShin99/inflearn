@@ -16,6 +16,9 @@ import java.io.IOException;
 @Controller
 public class ResponseBodyController {
 
+    // index.html -> HTTP 응답 - HTTP API, 메시지 바디에 직접 입력
+    // 순서 9번
+
     @GetMapping("/response-body-string-v1")
     public void responseBodyV1(HttpServletResponse response) throws IOException {
         response.getWriter().write("ok");
