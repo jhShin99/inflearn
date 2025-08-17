@@ -39,6 +39,7 @@ public class RequestParamController {
         return "ok";
     }
 
+    // @ResponseBody -> View 조회를 무시하고, Http message body에 직접 해당 내용 입력
     @ResponseBody
     @RequestMapping("/request-param-v3")
     public String requestParamV3(
